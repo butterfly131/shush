@@ -9,7 +9,9 @@
 
 .title {
   text-align: center;
-  padding: 25px;
+  padding: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   color: #123456;
   font-family: 'ZCOOL XiaoWei', sans-serif;
   animation: lights 5s 750ms linear infinite;
@@ -29,7 +31,6 @@
   transition: transform 1s;
   transform-origin: left;
 }
-
 
 .bg-image {
   background-image: url("https://i.pinimg.com/564x/c3/4e/d6/c34ed601117ae1bb5797118cb289aae8.jpg");
@@ -224,6 +225,13 @@
     height: auto;
     padding: 30px;
     font-size: 16px;
+  }
+  .arrow {
+    left: 15px;
+    width:60px;
+    height: 60px;
+    border: solid 4px rgb(255, 255, 255);
+    border-radius: 100%;
   }
 }
 

@@ -4,7 +4,7 @@ import "./Banner.css";
 import Cake from "./Cake";
 import BeeAnimation from "./BeeAnimation";
 import ButterflyAnimation from "./ButterflyAnimation";
-import Arrow from "./Arrow";
+import Arrows from "./Arrows";
 
 const Banner = () => {
   // const [showArrow, setShowArrow] = useState(false);
@@ -26,7 +26,6 @@ const Banner = () => {
     const timeDiff = eventDate - currentTime;
 
     if (timeDiff < 0) {
-      // Event date has passed, return remaining time as 0
       return { days: 0, hours: 0, minutes: 0, seconds: 0 };
     }
 
@@ -91,7 +90,6 @@ const Banner = () => {
     );
   }
 
-  // Just testing git---- 
 
 
   return (
@@ -105,8 +103,8 @@ const Banner = () => {
             </div>
           </div>
           {/* <section className={`banner ${showArrow ? 'show-arrow' : ''}`}></section> */}
-          <div className="arrow">
-            <Arrow />
+          <div className="arrows">
+            <Arrows />
             {/* {showArrow && <Arrow />} */}
           </div>
           <Confetti

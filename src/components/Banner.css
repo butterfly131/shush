@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Gabriela');
 
 
-
 .banner {
   position: relative;
   min-height: 100vh;
@@ -56,14 +55,14 @@
 
 /* Arrow */
 
-.banner .arrow {
+.arrows {
   position: absolute;
   justify-content: right;
   text-align: right;
   top: 50%;
-  right: 9%;
-  animation: fadeInRight 1s forwards;
-  transform: rotate(135deg); 
+  right: 10%; 
+  /* animation: fadeInRight 10s forwards; */
+  transform: rotate(-45deg); 
 }
 
 /* @keyframes fadeInRight {

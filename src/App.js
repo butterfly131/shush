@@ -9,7 +9,7 @@ import Guestbook from "./components/Guestbook";
 import AudioPlayer from "./AudioPlayer";
 import Messages from "./components/Messages";
 import Footer from "./components/Footer";
-// import Poem from "./components/Poem";
+import Poem from "./components/Poem";
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Route path="/audioplayer" element={<AudioPlayer />} />
         <Route path="/messages" element={<Messages/>} />
         <Route path="/footer" element={<Footer/>} />
-        {/* <Route path="/poem" element={<Poem/>} /> */}
+        <Route path="/poem" element={<Poem/>} />
       </Routes>
     </div>
   );

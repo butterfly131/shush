@@ -1,5 +1,6 @@
 import React from "react";
 import "./Messages.css";
+import { Link } from "react-router-dom";
 
 const Messages = () => {
   return (
@@ -7,7 +8,8 @@ const Messages = () => {
       <section className="container">
         <div className="poem-container-left">
           <h1 className="title">Poison and Antidote</h1>
-          <span className="arrow"></span>
+          <Link to="/poem"><span className="arrow"></span></Link>
+          
           <div className="row">
             <p id="p1" className="col t-1 bg-image">
               In this friendship of ours, an interesting twist, <br />

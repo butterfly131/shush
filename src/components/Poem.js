@@ -1,47 +1,82 @@
 import React from "react";
-import Typewriter from "react-typewriter-effect";
 import "./Poem.css";
 
 const Poem = () => {
   return (
-    <div className="body-poem">
-      <section className="container">
-        <div className="poem-container-left">
-          <h1 className="title">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter.typeString("Poison and Antidote").start();
-              }}
-            />
-          </h1>
-          <div className="row">
-            <p className="col t-1">
-              In this friendship of ours, an interesting twist, <br />
-              You're my Poison & Antidote, a funny mix. <br />
-              With your words, you sting like a mischievous bee, <br />
-              Yet your presence brings healing, just wait and see. <br />
-              <br />
-              You poke and tease, a master of mischief and fun, <br />
-              But when I'm feeling down, you're the only one, <br />
-              Who can magically turn my frown upside down, <br />
-              Your jokes and laughter, a remedy I've found. <br />
-              <br />
-              You're the Poison that pricks, a jolt to my soul, <br />
-              Yet you're also the Antidote that makes me whole. <br />
-              No one else can hurt me quite like you do, <br />
-              But your friendship's healing power is tried and true. <br />
-              <br />
-              So here's to our unique bond, a funny charade, <br />
-              Where hurt and healing intertwine, unafraid. <br />
-              Through laughter and tears, we navigate this ride, <br />
-              With you by my side, there's nowhere to hide. <br />
-              <br />
-              Just remember, my Poison & Antidote friend, <br />
-              Our quirky connection, it knows no end. <br />
-              You may sting me with words, but I'll always find, <br />
-              That healing touch, one of a kind. <br />
-              <br />
-            </p>
+    <div className="body-poem1">
+              <h1 className="title1">Busy Bee</h1>
+              <span className="arrow1"></span>
+      <section className="container c1">
+        <div className="row r1">
+          <div className="col-lg-6 col-12 col1">
+            <div className="poem-container-left1">
+              <div id="p" className=" im1">
+                <p>
+                  In a world of busy bees, one stands tall,
+                  <br/>
+                  Our friend Busy Bee, always on the ball.
+                  <br/>
+                  With a schedule packed, no time to rest,
+                  <br/>
+                  He's the master of busyness, we must confess.
+                  <br/>
+                </p>
+                <p>
+                  Oh Busy Bee, the busiest of them all,
+                  <br/>
+                  Your to-do list never seems to fall.
+                  <br/>
+                  From dawn to dusk, you're always in a race,
+                  <br/>
+                  But we wonder, do you ever slow your pace?
+                  <br/>
+                </p>
+                <p>
+                  Freddie's tunes may have to wait,
+                  <br/>
+                  As you conquer the world, your work slate.
+                  <br/>
+                  But hey, take a break, it won't cause a fuss,
+                  <br/>
+                  It's your birthday, Busy Bee, time to buzz :)
+                  <br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-12 col2">
+            <div id="p">
+              <p>
+                Happy Birthday, our tireless friend,
+                <br/>
+                May your busy schedule never end.
+                <br/>
+                Sit back, relax, and enjoy the show,
+                <br/>
+                Take a break, because we all know.
+                <br/>
+              </p>
+              <p>
+                You're the busiest bee we've ever seen,
+                <br/>
+                But even busy bees deserve a routine.
+                <br/>
+                So kick up your feet, have some fun,
+                <br/>
+                Let loose, Busy Bee, the work can be undone.
+                <br/>
+              </p>
+              <p>
+                Here's to you, the busiest bee in town,
+                <br/>
+                May you find time to laugh and clown.
+                <br/>
+                On this special day, let's all raise a toast,
+                <br/>
+                To our workaholic friend, you're the most!
+                <br/>
+              </p>
+            </div>
           </div>
         </div>
       </section>
