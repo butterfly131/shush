@@ -1,0 +1,9 @@
+h1 {
+  color: white;
+  font-size: larger;
+}
+
+.main-page {
+  background-color: rgb(139, 139, 139);
+  height: 100vh;
+}

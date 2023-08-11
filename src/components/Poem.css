@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Edu+SA+Beginner:wght@400;500;600;700&family=Great+Vibes&family=Heebo:wght@200;300&family=Kalam&family=Oswald:wght@200;300;400;500;600;700&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700;1,800&family=ZCOOL+XiaoWei&display=swap');
+
+.body-poem {
+  top: 0;
+  background-color: #809ca7;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  padding: 25px;
+  color: #123456;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.poem-container-left {
+  width: 50%;
+}
+
+.row {
+  margin: 10px 10px 10px 10px;
+}
+
+.col {
+  height: 550px;
+  padding-top: 30px;
+  padding-left: 30px;
+  box-shadow: inset 0 0 10px #353534;
+  font-family: 'Belleza', sans-serif;
+  font-size: 20px;
+}
+
+.t-1 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typewriter 5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typewriter{
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  30% { border-color: rgb(38, 74, 194); }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .poem-container-left {
+    width: 100%;
+  }
+  .col {
+    height: auto;
+    padding: 30px;
+    font-size: 16px;
+  }
+}
