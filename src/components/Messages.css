@@ -218,6 +218,10 @@
   .body-poem {
     height: 100%;
   }
+  .title {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
   .container {
     flex-direction: column;
   }
