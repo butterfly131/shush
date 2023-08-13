@@ -215,6 +215,9 @@
 }
 
 @media (max-width: 768px) {
+  .body-poem {
+    height: 100%;
+  }
   .container {
     flex-direction: column;
   }
