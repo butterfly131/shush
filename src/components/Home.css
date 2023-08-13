@@ -91,6 +91,9 @@
 
 /* Media query for smaller devices (phones) */
 @media only screen and (max-width: 600px) {
+  .body {
+    height: 100%;
+  }
   .container-home {
     margin: 70px 10px; /* Adjust the margin for smaller devices */
   }
